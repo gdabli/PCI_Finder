@@ -58,23 +58,3 @@ def search_pci(file_path):
 
 if __name__ == '__main__':
 	main()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
