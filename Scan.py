@@ -2,6 +2,10 @@ import boto3
 import smart_open
 import re
 
+'''
+This is simple python utility that recursively scans s3 buckets and objects for any PCI data on it. 
+'''
+
 ''' Constants for SSN and Email '''
 SSN = r'^(\d{3}-\d{2}-\d{4}|XXX-XX-XXXX)$'
 EMAIL = r'^[\w.-]+@[\w.-]+$'
