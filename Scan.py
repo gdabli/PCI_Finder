@@ -3,7 +3,7 @@ import smart_open
 import re
 
 '''
-This is simple python utility that recursively scans s3 buckets and objects for any PCI data on it. 
+This is simple python utility that scans s3 bucket and objects for any PCI data on it. 
 '''
 
 ''' Constants for SSN and Email '''
